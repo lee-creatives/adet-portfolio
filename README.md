@@ -1,7 +1,8 @@
 # Mhaithan Lee H. Caliuag — Developer Portfolio
 
-> **Front-End Developer & UI/UX Designer**  
-> Clean, responsive, high-performance web applications and modern design systems. Ready to contribute day one to engineering and design teams.
+> **Front-End Developer & UI/UX Researcher**  
+> BSIT Junior Student · Bulacan State University (BulSU)  
+> *“I design what people actually use, then build it with clean, responsive code.”*
 
 ---
 
@@ -18,28 +19,31 @@ Once GitHub Pages is enabled for this repository, the site is live at:
 
 ---
 
-## 🚀 Key Highlights & Portfolio Features
+## 🎓 Academic Profile & Education
 
-- **Folioxa-Inspired Bento Grid**: Clean light-mode aesthetic with balanced typography, rounded surface cards, and subtle drop shadows.
-- **Job-Application Centric**: Structured specifically for tech recruiters, hiring managers, and design leads.
-- **Featured Projects (3D Device Mockups)**:
-  - **Creative Studio Showcase** — Interactive agency web application with GSAP animations and dynamic case-study transitions.
-  - **E-Commerce & SaaS Dashboard** — Real-time analytics dashboard with chart visualizers, multi-currency checkout, and order management.
-  - **Personal Branding & Developer Portfolio** — Minimalist, high-performance portfolio featuring bento-grid layouts and responsive design.
-  - **Campus & Event Mobile App** — Mobile-first web app for campus ticketing, QR code check-ins, and schedule coordination.
-- **Technical Competencies**: HTML5/CSS3, JavaScript (ES6+), React Fundamentals, Responsive Design, Figma UI/UX, Git & GitHub.
-- **Experience & Education Timeline**: Clearly communicates academic background and practical development milestones.
-- **Recruiter FAQ Accordion**: Interactive questions covering availability, remote/hybrid flexibility, technical stack, and learning agility.
-- **Print-Ready PDF Included**: Contains the full portfolio formatted for Long Bond Paper (`Portfolio_Mhaithan_Caliuag_Print_Ready_Long.pdf`).
+- **Institution**: Bulacan State University (BulSU)
+- **Degree**: Bachelor of Science in Information Technology (BSIT)
+- **Year / Section**: Junior Student (3rd Year), Section BSIT 3H-G2 (Class of 2026)
+- **Key Coursework**: IT305 Advanced Web Development (ADET - Application Development and Emerging Technologies), Database Management Systems (MySQL), Software Engineering, UI/UX Usability Research, Object-Oriented Programming.
 
 ---
 
-## 🛠️ Technology Stack
+## 🚀 Featured Academic & Capstone Projects
 
-- **Markup**: Semantic HTML5 with accessibility ARIA standards
-- **Styling**: Modern CSS3 (CSS Custom Properties, CSS Grid, Flexbox, Fluid Clamping, Smooth Transitions)
-- **Scripting**: Vanilla JavaScript (ES6+, IntersectionObserver API for scroll animations, Accordion Controller)
-- **Typography**: Google Fonts — [Outfit](https://fonts.google.com/specimen/Outfit)
+- **ResQRoad** — Pothole & Road Hazard Reporting Web and Mobile App (Final Project for IT305 Advanced Web Development, BSIT 3H-G2). Features real-time road hazard reporting, GPS mapping, admin triage dashboards, and a mobile-first responsive layout.
+- **ResQNest** — Web-based Community Food Rescue and Distribution Management System (Capstone Research Project). Built with PHP, MySQL, and JavaScript to coordinate donor surplus matching, volunteer delivery logistics, and live inventory metrics.
+- **TeleCare Connect** — Clinic Teleconsultation Booking & Automated Reminder System. Built with React and Vite; thoroughly tested with automated Selenium end-to-end browser test suites.
+- **Folioxa Creative Studio** — Modern editorial web application & design system. Built with modular CSS Grid, accessible semantic HTML5, and fluid typography.
+
+---
+
+## 🛠️ Technical Competencies & Toolkit
+
+- **01 Frontend**: HTML5, CSS3, JavaScript (ES6+), React
+- **02 Backend**: PHP, Node.js
+- **03 Database**: MySQL
+- **04 Tools & QA**: Git & GitHub, Selenium Automated Testing, AWS Cloud Basics, VS Code
+- **05 Design & UX**: Figma, UI/UX Research, Wireframing, Usability Testing
 
 ---
 
@@ -57,8 +61,7 @@ adet-portfolio/
 ├── index.html                       # Semantic HTML5 single-page portfolio
 ├── styles.css                       # Responsive light-theme stylesheet
 ├── script.js                        # Interactive navigation and animations
-├── Portfolio_Mhaithan_Caliuag_Print_Ready_Long.pdf # Print-ready portfolio document
-├── .gitignore                       # Git ignore file
+├── .gitignore                       # Clean Git configuration (excluding PDFs/docs)
 └── README.md                        # Documentation and project overview
 ```
 
@@ -67,8 +70,7 @@ adet-portfolio/
 ## 📬 Contact & Inquiries
 
 - **Name**: Mhaithan Lee H. Caliuag
-- **Role**: Front-End Developer & UI/UX Designer
+- **Role**: Front-End Developer & UI/UX Researcher
 - **Email**: [mhaithan.lee.c@gmail.com](mailto:mhaithan.lee.c@gmail.com)
 - **Phone**: +63 976 134 8316
 - **Location**: Baliwag, Bulacan, Philippines (Open to Remote & Onsite)
-
