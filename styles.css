@@ -26,6 +26,7 @@ html {
   background: var(--page);
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -408,7 +409,7 @@ h1, h2, h3, h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: clamp(1.2rem, 3.5vw, 3rem);
+  gap: clamp(0.75rem, 2.5vw, 2rem);
 }
 .logo-tag {
   display: inline-flex;
@@ -513,9 +514,9 @@ h1, h2, h3, h4 {
 .project-image-wrap {
   overflow: hidden;
   border-radius: var(--radius-inner);
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   background: #111114;
-  margin-block: 0.4rem 0.8rem;
+  margin-block: 0.6rem 0.8rem;
 }
 .project-image-wrap img {
   width: 100%;
@@ -525,6 +526,14 @@ h1, h2, h3, h4 {
 }
 .project-card:hover .project-image-wrap img {
   transform: scale(1.03);
+}
+.project-subtitle {
+  display: block;
+  font-size: 0.88rem;
+  color: var(--ink-secondary);
+  font-weight: 500;
+  margin-top: 0.25rem;
+  line-height: 1.4;
 }
 .project-bottom p {
   font-size: 0.95rem;
@@ -545,6 +554,46 @@ h1, h2, h3, h4 {
   background: #f0f0f5;
   padding: 0.25rem 0.65rem;
   border-radius: 6px;
+}
+.project-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--surface-border);
+}
+.btn-card-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.95rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  transition: all 0.25s var(--ease);
+}
+.btn-card-action.btn-code {
+  background: var(--surface-alt);
+  color: var(--ink);
+  border: 1px solid var(--surface-border);
+}
+.btn-card-action.btn-code:hover {
+  background: var(--ink);
+  color: #ffffff;
+  border-color: var(--ink);
+  transform: translateY(-2px);
+}
+@media (max-width: 1100px) and (min-width: 769px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
 }
 .projects-cta-wrap {
   display: flex;
@@ -1279,7 +1328,6 @@ h1, h2, h3, h4 {
   }
   .intro-card { order: 1; }
   .toolkit, .scroll-cue { grid-column: auto; }
-  .project-grid { grid-template-columns: 1fr; }
   .folioxa-bento { grid-template-columns: 1fr; }
   .bento-orange { min-height: 260px; }
   .bento-orange-img { width: 42%; max-width: 250px; }

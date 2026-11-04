@@ -28,11 +28,19 @@ Once GitHub Pages is enabled for this repository, the site is live at:
 
 ---
 
-## 🚀 Featured Academic & Capstone Projects
+## 🚀 Featured Projects
 
-- **PATAG** — Web and Mobile-Based Road Pothole Reporting and Monitoring System for Local Government Units (Final Project for IT305 Advanced Web Development, BSIT 3H-G2). A Philippine civic technology platform featuring citizen mobile reporting with GPS pinning, maintenance triage, and LGU engineering dashboards.
-- **CampusVoice** — Centralized Student Voting, Election & Feedback Web Portal. Developed with PHP, MySQL, and Firebase for student elections, real-time vote tabulations, automated analytics reports, and candidate platforms.
-- **Pananim** — Philippine Wholesale Agricultural Crop Marketplace & Logistics Platform. B2B agricultural marketplace connecting Filipino farmers and agricultural cooperatives directly with buyers, wholesalers, and vendors, featuring regional reference pricing and inventory ledgers.
+- **CampusVoice** — *Campus Feedback & Survey Management System*  
+  A web-based platform designed to improve communication between students and educational institutions. It provides a centralized space for collecting student feedback, conducting surveys, and gathering insights that help administrators make informed decisions and improve the overall campus experience.  
+  *(Tags: Web Application, EdTech, Student Feedback, Survey Management · Stack: PHP, MySQL, JavaScript, Firebase)*
+
+- **PATAG** — *Smart Road Reporting & Maintenance Management System*  
+  A civic technology platform that empowers citizens to report potholes and road damage using photos and location-based reporting. It connects communities with local government units and maintenance teams through a centralized system for verifying reports, assigning repairs, and tracking progress—promoting safer roads, transparency, and faster public service.  
+  *(Tags: Web & Mobile, CivicTech, Geolocation, Issue Tracking · Stack: Flutter, React, TypeScript, Vite)*
+
+- **Pananim** — *Agricultural Trading & Supply Chain Management System*  
+  A digital agricultural platform designed to connect local farmers, buyers, and logistics providers in one streamlined ecosystem. It simplifies crop trading, improves market price transparency, and coordinates shared cargo transportation to reduce supply chain inefficiencies. By providing better market access and logistics coordination, Pananim aims to support fairer trading opportunities and a more efficient agricultural supply chain.  
+  *(Tags: Web & Mobile, AgriTech, Crop Trading, Supply Chain · Stack: React, TypeScript, Vite, Figma System)*
 
 ---
 
@@ -50,13 +58,12 @@ Once GitHub Pages is enabled for this repository, the site is live at:
 
 ```text
 adet-portfolio/
-├── assets/                          # Mockups, portraits, cutouts, and graphic assets
+├── assets/                          # Authentic screenshots, avatars, and assets
+│   ├── campusvoice-preview.png      # 16:9 CampusVoice preview
+│   ├── patag-preview.png            # 16:9 PATAG inspection preview
+│   ├── pananim-preview.png          # 16:9 Pananim admin preview
 │   ├── mhaithan-portrait.png
-│   ├── mhaithan-avatar-cutout.png
-│   ├── project-creative-studio.jpg
-│   ├── project-ecommerce-product.jpg
-│   ├── project-mobile-app.jpg
-│   └── project-personal-portfolio.jpg
+│   └── mhaithan-avatar-cutout.png
 ├── index.html                       # Semantic HTML5 single-page portfolio
 ├── styles.css                       # Responsive light-theme stylesheet
 ├── script.js                        # Interactive navigation and animations
