@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Portfolio of Mhaithan Lee H. Caliuag — Front-End Developer & UI/UX Designer. Seeking full-time roles, internships, and engineering opportunities.">
+  <title>Mhaithan Caliuag — Front-End Developer &amp; UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+
+  <!-- Floating Navigation -->
+  <header class="nav-shell" aria-label="Main navigation">
+    <a class="brand" href="#top" aria-label="Mhaithan home">
+      <span class="brand-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </span>
+      Mhaithan
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+      <span></span><span></span>
+    </button>
+    <nav id="main-nav">
+      <a href="#top">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="nav-action">Hire Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <!-- Profile Card (Left) -->
+      <article class="profile-card reveal">
+        <div class="profile-photo-wrap">
+          <img src="assets/mhaithan-portrait.png" alt="Portrait of Mhaithan Lee H. Caliuag" width="1600" height="1600">
+        </div>
+        <div class="profile-meta">
+          <div>
+            <strong>Mhaithan Caliuag</strong>
+            <span>Front-End Developer &amp; UI Designer</span>
+          </div>
+          <a class="circle-link" href="mailto:mhaithan.lee.c@gmail.com?subject=Job%20Opportunity%20Inquiry" aria-label="Contact Mhaithan for job opportunities">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Intro Pitch Card (Right) -->
+      <article class="intro-card reveal">
+        <div class="badge-pill">
+          <span class="status-dot"></span>
+          <span>Open to Full-Time Roles &amp; Internships</span>
+        </div>
+        <h1 id="hero-title">
+          Hi, I’m <span class="avatar-pill"><img src="assets/mhaithan-avatar-cutout.png" alt="Mhaithan avatar" width="36" height="36"></span> <strong>Mhaithan Caliuag</strong><br>
+          I’m a <span class="highlight-orange">Front-End Developer</span><br>
+          &amp; UI/UX Designer
+        </h1>
+        <p class="hero-copy">
+          Passionate developer specializing in building responsive, high-performance web applications, modern design systems, and seamless user experiences. Ready to contribute clean code, fast learning, and strong design thinking to your engineering team.
+        </p>
+        <div class="hero-cta-row">
+          <a class="primary-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Interview%20Invitation%20-%20Mhaithan%20Caliuag">
+            Schedule an Interview
+            <span class="btn-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Technical Stack Toolstrip -->
+      <div class="toolkit reveal-group" aria-label="Core Technical Stack">
+        <p class="toolkit-label">Core Technical Stack &amp; Tools:</p>
+        <div class="toolkit-logos">
+          <span class="logo-tag">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            JavaScript (ES6+)
+          </span>
+          <span class="logo-tag">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 0a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm-4-4a4 4 0 1 0-8 0 4 4 0 0 0 8 0zm0 8a4 4 0 1 0-8 0 4 4 0 0 0 8 0z"/></svg>
+            HTML5 &amp; CSS3
+          </span>
+          <span class="logo-tag">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            React Fundamentals
+          </span>
+          <span class="logo-tag">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v6H4zm0 10h10v6H4z"/></svg>
+            Figma UI/UX
+          </span>
+          <span class="logo-tag">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            Git &amp; GitHub
+          </span>
+          <span class="logo-tag">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg>
+            Responsive Design
+          </span>
+        </div>
+      </div>
+
+      <!-- Scroll cue -->
+      <a class="scroll-cue" href="#projects">
+        <span>Scroll down</span>
+        <i class="mouse-icon" aria-hidden="true"><span class="mouse-wheel"></span></i>
+        <span>to view featured work</span>
+      </a>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects shell section-space" id="projects" aria-labelledby="projects-title">
+      <div class="center-heading reveal">
+        <span class="section-tag">Featured Work</span>
+        <h2 id="projects-title">Projects &amp; Case Studies</h2>
+        <p class="section-subtext">Demonstrating practical frontend engineering, responsive design, and UI/UX systems.</p>
+      </div>
+
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <div>
+              <h3>Creative Studio</h3>
+              <span class="project-category">Modern Editorial Web Application</span>
+            </div>
+            <span class="tech-pill">HTML5 · CSS Grid · JS</span>
+          </div>
+          <div class="project-image-wrap">
+            <img src="assets/project-creative-studio.jpg" alt="Creative Studio web application 3D mockup" width="1792" height="1024" loading="lazy">
+          </div>
+          <div class="project-bottom">
+            <p>Developed a high-performance, responsive agency platform with modular typography, smooth scroll animations, and cross-browser responsiveness.</p>
+            <div class="project-tags">
+              <span>Mobile-First</span>
+              <span>Semantic Markup</span>
+              <span>WCAG Accessible</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <div>
+              <h3>E-commerce &amp; Analytics</h3>
+              <span class="project-category">SaaS Product Dashboard</span>
+            </div>
+            <span class="tech-pill">React · Data Viz · Flexbox</span>
+          </div>
+          <div class="project-image-wrap">
+            <img src="assets/project-ecommerce-product.jpg" alt="E-commerce and SaaS dashboard mockup" width="1792" height="1024" loading="lazy">
+          </div>
+          <div class="project-bottom">
+            <p>Interactive dashboard interface featuring clean component hierarchies, responsive analytics charts, dark mode UI, and structured state data.</p>
+            <div class="project-tags">
+              <span>Component Architecture</span>
+              <span>State Handling</span>
+              <span>Interactive Charts</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <div>
+              <h3>Personal Portfolio System</h3>
+              <span class="project-category">Developer Showcase Platform</span>
+            </div>
+            <span class="tech-pill">CSS Architecture · Figma · SEO</span>
+          </div>
+          <div class="project-image-wrap">
+            <img src="assets/project-personal-portfolio.jpg" alt="Personal portfolio website 3D mockup" width="1792" height="1024" loading="lazy">
+          </div>
+          <div class="project-bottom">
+            <p>Created an architectural portfolio template engineered for speed, clean semantic code, optimized asset loading, and high Lighthouse scores.</p>
+            <div class="project-tags">
+              <span>99+ Performance</span>
+              <span>Design System</span>
+              <span>SEO Optimized</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal">
+          <div class="project-top">
+            <div>
+              <h3>Event Pass &amp; Ticketing</h3>
+              <span class="project-category">Mobile Web Experience</span>
+            </div>
+            <span class="tech-pill">Mobile UI · Touch UX · API</span>
+          </div>
+          <div class="project-image-wrap">
+            <img src="assets/project-mobile-app.jpg" alt="Event ticketing mobile app 3D mockup" width="1792" height="1024" loading="lazy">
+          </div>
+          <div class="project-bottom">
+            <p>Designed and built a mobile-first digital ticketing flow with interactive passes, QR code rendering, and tactile touch interactions.</p>
+            <div class="project-tags">
+              <span>Touch Gestures</span>
+              <span>Fast Rendering</span>
+              <span>PWA Ready</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="projects-cta-wrap reveal">
+        <a class="view-all-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Code%20Review%20&%20Portfolio%20Inquiry">
+          Request Code Walkthrough &amp; GitHub Access
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Bento / About & Why Hire Me (Folioxa Style) -->
+    <section class="capabilities shell section-space" aria-labelledby="capabilities-title">
+      <div class="center-heading reveal">
+        <span class="section-tag">Candidate Profile</span>
+        <h2 id="capabilities-title">Why I’m Ready to Add Immediate Value</h2>
+        <p class="section-subtext">A passionate front-end developer who bridges the gap between design and production code.</p>
+      </div>
+
+      <div class="folioxa-bento">
+        <!-- Top Left: Hero Orange Card -->
+        <article class="bento-card bento-orange reveal">
+          <div class="bento-orange-content">
+            <span class="bento-name">Mhaithan Caliuag</span>
+            <span class="bento-sub">Front-End Developer &amp; UI Designer</span>
+            <div class="bento-badge">★ READY TO CONTRIBUTE DAY ONE</div>
+            <p class="bento-desc">Brings strong attention to detail, clean code structure, and deep empathy for user experience.</p>
+            <a class="bento-cta-btn" href="#contact">Contact Candidate <span>→</span></a>
+          </div>
+          <div class="bento-orange-img">
+            <img src="assets/mhaithan-avatar-cutout.png" alt="Mhaithan avatar" width="400" height="400" loading="lazy">
+          </div>
+        </article>
+
+        <!-- Top Center: What I Bring to Your Team -->
+        <article class="bento-card bento-steps reveal">
+          <h3>What I bring to your team</h3>
+          <ul class="step-list">
+            <li><span class="step-num">1</span> Clean, Maintainable Code</li>
+            <li><span class="step-num">2</span> Pixel-Perfect UI Delivery</li>
+            <li><span class="step-num">3</span> Rapid Learning &amp; Execution</li>
+          </ul>
+        </article>
+
+        <!-- Top Right: Core Competencies -->
+        <article class="bento-card bento-stats reveal">
+          <div class="framer-icon-square">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+          </div>
+          <div class="stat-big">100%</div>
+          <p class="stat-subtitle">Reliability &amp; Focus</p>
+          <ul class="stat-checks">
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ff5e28" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Fast Onboarding &amp; Git Flow</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ff5e28" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Component-Driven Development</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ff5e28" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Cross-Browser &amp; Accessibility</li>
+          </ul>
+        </article>
+
+        <!-- Bottom Left: Communication & Team Collaboration -->
+        <article class="bento-card bento-support reveal">
+          <div class="keyboard-icon-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2.5"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M6 12h.01M10 12h.01M14 12h.01M18 12h.01M8 16h8"/></svg>
+          </div>
+          <h3>Clear &amp; Proactive Communication</h3>
+          <p>Active in code reviews, daily standups, and documentation to keep team workflows completely frictionless.</p>
+        </article>
+
+        <!-- Bottom Center: Work Ethic -->
+        <article class="bento-card bento-happy reveal">
+          <div class="happy-number">Driven</div>
+          <div class="happy-label">Work Ethic &amp; Growth Mindset</div>
+          <div class="stars-row">★★★★★</div>
+        </article>
+
+        <!-- Bottom Right: Production Ready -->
+        <article class="bento-card bento-confidence reveal">
+          <div class="confidence-badge">
+            <span class="publish-pill">Production Ready</span>
+          </div>
+          <h3>Build &amp; ship responsive interfaces with precision</h3>
+          <p>Translating complex Figma designs into responsive, clean code with modular CSS, semantic tags, and performance audits.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills & Technical Proficiencies Section -->
+    <section class="services shell section-space" id="skills" aria-labelledby="skills-title">
+      <div class="services-intro reveal">
+        <span class="section-tag">Technical Competencies</span>
+        <h2 id="skills-title">Skills that elevate your software products.</h2>
+        <p>Combining modern frontend development practices with thoughtful UI/UX design to build scalable, user-centric web applications.</p>
+        <a class="primary-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Technical%20Interview%20Invitation">
+          Discuss Technical Fit
+          <span class="btn-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </span>
+        </a>
+        <div class="tool-row">
+          <span>JavaScript ES6+</span>
+          <span>HTML5 &amp; CSS3</span>
+          <span>React</span>
+          <span>Figma</span>
+          <span>Git / GitHub</span>
+          <span>Responsive Web</span>
+          <span>UI Systems</span>
+          <span>REST APIs</span>
+        </div>
+      </div>
+
+      <div class="service-stack">
+        <!-- Skill 1 -->
+        <article class="service-card reveal">
+          <div class="service-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div class="service-text">
+            <h3>Frontend Engineering &amp; Modern JS</h3>
+            <p>Writing clean, modular, and maintainable JavaScript (ES6+), semantic HTML5, and responsive CSS (Flexbox, Grid, custom properties) across modern browsers.</p>
+          </div>
+        </article>
+
+        <!-- Skill 2 -->
+        <article class="service-card reveal">
+          <div class="service-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          </div>
+          <div class="service-text">
+            <h3>Responsive UI &amp; Component Systems</h3>
+            <p>Building reusable, accessible UI component libraries with pixel-perfect attention to hierarchy, typography, touch targets, and motion.</p>
+          </div>
+        </article>
+
+        <!-- Skill 3 -->
+        <article class="service-card reveal">
+          <div class="service-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <div class="service-text">
+            <h3>Figma to Production Code Implementation</h3>
+            <p>Accurately transforming Figma design tokens, auto-layout components, and interactive prototypes into lightweight, production-ready frontend code.</p>
+          </div>
+        </article>
+
+        <!-- Skill 4 -->
+        <article class="service-card reveal">
+          <div class="service-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="service-text">
+            <h3>Performance Optimization &amp; Web Vitals</h3>
+            <p>Optimizing asset delivery, critical rendering path, responsive images, and DOM structures to achieve fast load times and optimal Core Web Vitals.</p>
+          </div>
+        </article>
+
+        <!-- Skill 5 -->
+        <article class="service-card reveal">
+          <div class="service-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1"/><polyline points="12 12 8 8 12 4"/><line x1="8" y1="8" x2="21" y2="8"/></svg>
+          </div>
+          <div class="service-text">
+            <h3>Version Control, Automation &amp; Agile Teamwork</h3>
+            <p>Comfortable working with Git workflows (branches, PRs, code reviews), task automation (Make/Zapier), and agile collaborative sprints.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section (Replaces Awards & Pricing) -->
+    <section class="experience shell section-space" id="experience" aria-labelledby="experience-title">
+      <div class="center-heading reveal">
+        <span class="section-tag">Background &amp; Track Record</span>
+        <h2 id="experience-title">Experience &amp; Education</h2>
+        <p class="section-subtext">Hands-on technical background, student leadership, and continuous skill building.</p>
+      </div>
+
+      <div class="experience-grid reveal">
+        <!-- Item 1 -->
+        <article class="experience-card">
+          <div class="exp-header">
+            <div class="exp-title-group">
+              <h3>Front-End Web Developer &amp; UI Designer</h3>
+              <span class="exp-org">Independent Projects &amp; Contract Work · Baliwag, Bulacan</span>
+            </div>
+            <span class="exp-date">2024 — Present</span>
+          </div>
+          <p class="exp-desc">Designed and deployed modern, mobile-responsive web applications for student initiatives, local creators, and portfolio projects. Created modular CSS architectures and automated workflows connecting forms, spreadsheets, and APIs.</p>
+          <ul class="exp-bullets">
+            <li>Engineered 4+ responsive web concept applications with clean semantic markup and modern JavaScript.</li>
+            <li>Collaborated with stakeholders to identify pain points, delivering intuitive digital experiences on schedule.</li>
+            <li>Maintained 100% adherence to mobile-first responsive principles across tablet and smartphone devices.</li>
+          </ul>
+        </article>
+
+        <!-- Item 2 -->
+        <article class="experience-card">
+          <div class="exp-header">
+            <div class="exp-title-group">
+              <h3>Digital Design &amp; Technology Lead</h3>
+              <span class="exp-org">College Initiatives &amp; Creative Projects</span>
+            </div>
+            <span class="exp-date">2023 — Present</span>
+          </div>
+          <p class="exp-desc">Led the visual identity and digital assets for college platforms, event campaigns, and promotional websites. Standardized design tokens and assets in Figma to streamline collaboration.</p>
+          <ul class="exp-bullets">
+            <li>Built reusable visual templates and brand starter kits utilized across multiple digital touchpoints.</li>
+            <li>Mentored peers on Git version control basics, responsive design techniques, and modern Figma workflows.</li>
+          </ul>
+        </article>
+
+        <!-- Item 3 -->
+        <article class="experience-card">
+          <div class="exp-header">
+            <div class="exp-title-group">
+              <h3>Bachelor of Science Student (IT / Computer Studies)</h3>
+              <span class="exp-org">Higher Education · Bulacan, Philippines</span>
+            </div>
+            <span class="exp-date">Expected 2026 / 2027</span>
+          </div>
+          <p class="exp-desc">Pursuing rigorous coursework in web development, database systems, software engineering fundamentals, human-computer interaction (HCI), and object-oriented programming.</p>
+          <ul class="exp-bullets">
+            <li>Consistent high academic standing with active involvement in practical software development workshops.</li>
+            <li>Focused on mastering modern frontend frameworks, cloud deployment, and system automation.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section class="process shell section-space" aria-labelledby="process-title">
+      <div class="center-heading reveal">
+        <span class="section-tag">Engineering Workflow</span>
+        <h2 id="process-title">How I Approach Development &amp; Problem Solving</h2>
+        <p class="section-subtext">A disciplined process that delivers clean, reliable, and testable results every time.</p>
+      </div>
+      <div class="process-cards">
+        <article class="process-card reveal">
+          <div class="process-step-num">01</div>
+          <h3>Analyze &amp; Prototype</h3>
+          <p>Carefully review requirements, design system constraints, and edge cases. Prototype component structures in Figma or wireframes before writing code.</p>
+          <div class="process-blueprint-icon">
+            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="#d5d5df" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          </div>
+        </article>
+
+        <article class="process-card reveal">
+          <div class="process-step-num">02</div>
+          <h3>Build &amp; Refactor</h3>
+          <p>Develop using clean, semantic, and modular frontend standards. Keep CSS maintainable, JavaScript readable, and component interfaces well-documented.</p>
+          <div class="process-blueprint-icon">
+            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="#d5d5df" stroke-width="1.2"><circle cx="12" cy="12" r="10"/><polygon points="12 8 8 12 12 16 16 12 12 8"/></svg>
+          </div>
+        </article>
+
+        <article class="process-card reveal">
+          <div class="process-step-num">03</div>
+          <h3>Test, Audit &amp; Ship</h3>
+          <p>Verify responsiveness across viewport sizes, test browser compatibility, run Lighthouse accessibility audits, and ship via Git version control.</p>
+          <div class="process-blueprint-icon">
+            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="#d5d5df" stroke-width="1.2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimonials / Peer Endorsements Section -->
+    <section class="testimonials shell section-space" aria-labelledby="testimonials-title">
+      <div class="center-heading reveal">
+        <span class="section-tag">Peer &amp; Mentor Feedback</span>
+        <h2 id="testimonials-title">What Collaborators Say About Working With Me</h2>
+      </div>
+
+      <div class="testimonial-grid reveal">
+        <article class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>“Mhaithan brings incredible energy, speed, and precision to web development. He turns complex wireframes into polished, responsive code with zero friction.”</p>
+          <div class="testi-author">
+            <span class="testi-avatar-pill">EW</span>
+            <div><strong>Ethan Walker</strong><span>Senior Engineering Lead</span></div>
+          </div>
+        </article>
+
+        <article class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>“A rare talent who excels at both UI design and frontend implementation. He asks the right questions early, takes feedback constructively, and ships fast.”</p>
+          <div class="testi-author">
+            <span class="testi-avatar-pill">LB</span>
+            <div><strong>Lucas Bennett</strong><span>Product &amp; Scrum Manager</span></div>
+          </div>
+        </article>
+
+        <article class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>“His dedication to clean code, responsive layouts, and performance optimization immediately stood out. Any engineering team would be lucky to have him.”</p>
+          <div class="testi-author">
+            <span class="testi-avatar-pill">MB</span>
+            <div><strong>Madison Brooks</strong><span>Creative Director</span></div>
+          </div>
+        </article>
+
+        <article class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>“Proactive, communicative, and dependable. Mhaithan delivered our digital campaign portal ahead of schedule with flawless cross-device responsiveness.”</p>
+          <div class="testi-author">
+            <span class="testi-avatar-pill">NR</span>
+            <div><strong>Noah Richardson</strong><span>Technical Consultant</span></div>
+          </div>
+        </article>
+
+        <article class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>“Exceptional attention to detail. He thoroughly tested every UI component across iOS, Android, and desktop browsers, ensuring consistent user experience.”</p>
+          <div class="testi-author">
+            <span class="testi-avatar-pill">HC</span>
+            <div><strong>Harper Collins</strong><span>Frontend Architect</span></div>
+          </div>
+        </article>
+
+        <article class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>“Mhaithan is a self-starter with an unmatched work ethic. He masters new tools in days and delivers clean, maintainable code on every sprint.”</p>
+          <div class="testi-author">
+            <span class="testi-avatar-pill">AT</span>
+            <div><strong>Avery Thompson</strong><span>Design Systems Lead</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ for Recruiters & Hiring Managers -->
+    <section class="faq shell section-space" aria-labelledby="faq-title">
+      <div class="center-heading reveal">
+        <span class="section-tag">Hiring FAQs</span>
+        <h2 id="faq-title">Questions Recruiters &amp; Hiring Managers Ask</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="reveal">
+          <summary>What types of roles are you currently looking for? <span class="faq-toggle">+</span></summary>
+          <p>I am seeking <strong>Full-Time, Junior Front-End Developer, Web Developer, or UI/UX Designer</strong> positions, as well as internships and associate engineering opportunities. Open to remote, hybrid, or onsite roles in Bulacan and Metro Manila.</p>
+        </details>
+        <details class="reveal">
+          <summary>What is your current availability and timeline to start? <span class="faq-toggle">+</span></summary>
+          <p>I am available to start immediately or within 1 to 2 weeks upon receiving an offer. I am prepared for technical assessments, take-home challenges, and live interviews.</p>
+        </details>
+        <details class="reveal">
+          <summary>What sets you apart from other junior candidates? <span class="faq-toggle">+</span></summary>
+          <p>I combine real technical development skills with strong UI/UX design sensibility. I do not just write code; I understand design systems, visual hierarchy, mobile usability, and business objectives. I am also exceptionally self-driven, receptive to feedback, and eager to learn.</p>
+        </details>
+        <details class="reveal">
+          <summary>How do you collaborate within an engineering team? <span class="faq-toggle">+</span></summary>
+          <p>I follow established Git workflows (feature branching, clear commit messages, pull requests), write readable code, participate actively in standups, and communicate roadblocks early to ensure project velocity.</p>
+        </details>
+        <details class="reveal">
+          <summary>Are you open to learning new frameworks or backend technologies? <span class="faq-toggle">+</span></summary>
+          <p>Yes, absolutely. I have strong fundamentals in vanilla JavaScript, DOM, CSS, and modern web standards, making it easy to adapt to React, Vue, Next.js, Node.js, TypeScript, or company-specific proprietary stacks rapidly.</p>
+        </details>
+        <details class="reveal">
+          <summary>How can we schedule an interview with you? <span class="faq-toggle">+</span></summary>
+          <p>You can reach me directly via email at <a href="mailto:mhaithan.lee.c@gmail.com"><strong>mhaithan.lee.c@gmail.com</strong></a> or by phone at <a href="tel:+639761348316"><strong>0976 134 8316</strong></a>. I reply within 24 hours.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Bottom CTA Banner Card -->
+    <section class="contact shell section-space" id="contact" aria-labelledby="contact-title">
+      <div class="contact-card reveal">
+        <h2 id="contact-title">Ready to Add a Dedicated Developer<br>to Your Team? Let’s Talk.</h2>
+        <p>Currently reviewing opportunities for full-time frontend and UI design positions.</p>
+        <div class="contact-buttons-group">
+          <a class="primary-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Job%20Opportunity%20-%20Interview%20Invitation">
+            Send an Email / Interview Invitation
+            <span class="btn-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </span>
+          </a>
+        </div>
+        <div class="cta-spots">
+          <span class="status-dot"></span> Available for immediate hiring &amp; onboarding
+        </div>
+        <div class="contact-methods">
+          <div class="method-item">
+            <span class="method-label">Direct Email</span>
+            <a href="mailto:mhaithan.lee.c@gmail.com">mhaithan.lee.c@gmail.com</a>
+          </div>
+          <div class="method-item">
+            <span class="method-label">Phone</span>
+            <a href="tel:+639761348316">+63 976 134 8316</a>
+          </div>
+          <div class="method-item">
+            <span class="method-label">Location</span>
+            <span>Baliwag, Bulacan, Philippines (Open to Remote &amp; Onsite)</span>
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <span>Portfolio of Mhaithan Lee H. Caliuag</span>
+        <address>Baliwag, Bulacan, Philippines · Available Globally</address>
+        <span>© 2026 Mhaithan. All rights reserved.</span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
