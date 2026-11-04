@@ -30,10 +30,9 @@ Once GitHub Pages is enabled for this repository, the site is live at:
 
 ## 🚀 Featured Academic & Capstone Projects
 
-- **ResQRoad** — Pothole & Road Hazard Reporting Web and Mobile App (Final Project for IT305 Advanced Web Development, BSIT 3H-G2). Features real-time road hazard reporting, GPS mapping, admin triage dashboards, and a mobile-first responsive layout.
-- **ResQNest** — Web-based Community Food Rescue and Distribution Management System (Capstone Research Project). Built with PHP, MySQL, and JavaScript to coordinate donor surplus matching, volunteer delivery logistics, and live inventory metrics.
-- **TeleCare Connect** — Clinic Teleconsultation Booking & Automated Reminder System. Built with React and Vite; thoroughly tested with automated Selenium end-to-end browser test suites.
-- **Folioxa Creative Studio** — Modern editorial web application & design system. Built with modular CSS Grid, accessible semantic HTML5, and fluid typography.
+- **PATAG** — Web and Mobile-Based Road Pothole Reporting and Monitoring System for Local Government Units (Final Project for IT305 Advanced Web Development, BSIT 3H-G2). A Philippine civic technology platform featuring citizen mobile reporting with GPS pinning, maintenance triage, and LGU engineering dashboards.
+- **CampusVoice** — Centralized Student Voting, Election & Feedback Web Portal. Developed with PHP, MySQL, and Firebase for student elections, real-time vote tabulations, automated analytics reports, and candidate platforms.
+- **Pananim** — Philippine Wholesale Agricultural Crop Marketplace & Logistics Platform. B2B agricultural marketplace connecting Filipino farmers and agricultural cooperatives directly with buyers, wholesalers, and vendors, featuring regional reference pricing and inventory ledgers.
 
 ---
 
