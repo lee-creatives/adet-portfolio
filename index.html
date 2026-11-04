@@ -4,11 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Portfolio of Mhaithan Lee H. Caliuag — Front-End Developer & UI/UX Designer. Seeking full-time roles, internships, and engineering opportunities.">
+  <meta name="description" content="Portfolio of Mhaithan Lee H. Caliuag — BSIT student, Front-End Developer & UI/UX Designer at Bulacan State University. Building thoughtful, accessible digital experiences.">
+  <meta property="og:title" content="Mhaithan Caliuag — Front-End Developer & UI/UX Designer">
+  <meta property="og:description" content="BSIT student passionate about designing and developing intuitive websites, applications, and digital systems that solve real-world problems.">
+  <meta property="og:type" content="website">
   <title>Mhaithan Caliuag — Front-End Developer &amp; UI/UX Designer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ff5e28'><path d='m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,16 +30,18 @@
       <span></span><span></span>
     </button>
     <nav id="main-nav">
-      <a href="#top">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact" class="nav-action">Hire Me</a>
+      <a href="#top" class="nav-link is-active">Home</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Education</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#contact" class="nav-action">Get in Touch</a>
     </nav>
   </header>
 
   <main>
-    <!-- Hero Section -->
+    <!-- Section 1: Hero Section -->
     <section class="hero shell" id="top" aria-labelledby="hero-title">
       <!-- Profile Card (Left) -->
       <article class="profile-card reveal">
@@ -47,7 +53,7 @@
             <strong>Mhaithan Caliuag</strong>
             <span>Front-End Developer &amp; UI Designer</span>
           </div>
-          <a class="circle-link" href="mailto:mhaithan.lee.c@gmail.com?subject=Job%20Opportunity%20Inquiry" aria-label="Contact Mhaithan for job opportunities">
+          <a class="circle-link" href="mailto:mhaithan.lee.c@gmail.com?subject=Portfolio%20Inquiry%20-%20Mhaithan%20Caliuag" aria-label="Send email to Mhaithan">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
           </a>
         </div>
@@ -57,21 +63,25 @@
       <article class="intro-card reveal">
         <div class="badge-pill">
           <span class="status-dot"></span>
-          <span>Open to Roles &amp; Internships · BSIT Junior @ BulSU</span>
+          <span>BSIT Student @ BulSU &bull; Class of 2026</span>
         </div>
         <h1 id="hero-title">
-          Hi, I’m <span class="avatar-pill"><img src="assets/mhaithan-avatar-cutout.png" alt="Mhaithan avatar" width="36" height="36"></span> <strong>Mhaithan Caliuag</strong><br>
-          I’m a <span class="highlight-orange">Front-End Developer</span><br>
-          &amp; UI/UX Researcher
+          Building Thoughtful <span class="highlight-orange">Digital Experiences.</span>
         </h1>
         <p class="hero-copy">
-          Third-year BSIT student at Bulacan State University passionate about turning user needs into working web apps. I split my time between researching how people interact with systems, crafting intuitive interfaces in Figma, and engineering clean, accessible code.
+          I'm a BSIT student passionate about designing and developing intuitive websites, applications, and digital systems that solve real-world problems.
         </p>
         <div class="hero-cta-row">
-          <a class="primary-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Interview%20Invitation%20-%20Mhaithan%20Caliuag">
-            Schedule an Interview
+          <a class="primary-button" href="#projects">
+            Explore My Projects
             <span class="btn-icon">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </span>
+          </a>
+          <a class="secondary-button" href="#contact">
+            Get in Touch
+            <span class="btn-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
             </span>
           </a>
         </div>
@@ -98,6 +108,10 @@
             PHP &amp; MySQL
           </span>
           <span class="logo-tag">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            Flutter
+          </span>
+          <span class="logo-tag">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
             Figma UI/UX
           </span>
@@ -105,22 +119,18 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
             Git &amp; GitHub
           </span>
-          <span class="logo-tag">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            Selenium Testing
-          </span>
         </div>
       </div>
 
       <!-- Scroll cue -->
-      <a class="scroll-cue" href="#projects">
+      <a class="scroll-cue" href="#projects" aria-label="Scroll to featured projects">
         <span>Scroll down</span>
         <i class="mouse-icon" aria-hidden="true"><span class="mouse-wheel"></span></i>
         <span>to view featured work</span>
       </a>
     </section>
 
-    <!-- Featured Projects Section -->
+    <!-- Section 2: Featured Projects Section -->
     <section class="projects shell section-space" id="projects" aria-labelledby="projects-title">
       <div class="center-heading reveal">
         <span class="section-tag">SELECTED WORK</span>
@@ -135,21 +145,44 @@
             <span class="showcase-eyebrow">01 / EDUCATION TECHNOLOGY</span>
             <h3 class="showcase-title">CampusVoice</h3>
             <p class="showcase-subtitle">Campus Feedback &amp; Survey Management System</p>
-            <p class="showcase-desc">A centralized web platform that helps educational institutions collect student feedback, conduct surveys, and turn responses into actionable insights for improving the campus experience.</p>
+            <p class="showcase-desc">A student-focused feedback and survey management platform designed to make campus communication more accessible and organized. It provides a digital space for collecting student opinions, managing surveys, and reviewing feedback to support informed institutional decisions.</p>
+            
+            <div class="showcase-details-block">
+              <div class="detail-row">
+                <strong>Problem Solved:</strong>
+                <span>Student feedback at universities is often scattered across paper forms or unstructured chats with low engagement and no aggregated visibility for campus administrators.</span>
+              </div>
+              <div class="detail-row">
+                <strong>Key Features:</strong>
+                <span>Automated survey distribution, real-time response aggregation, role-based admin insights, and mobile-friendly participation.</span>
+              </div>
+              <div class="detail-row">
+                <strong>My Contribution:</strong>
+                <span>Architected the survey submission interface, built client-side validation in JavaScript, and integrated relational PHP/MySQL submission endpoints.</span>
+              </div>
+            </div>
+
             <div class="showcase-tech">
               <span class="tech-tag">PHP</span>
               <span class="tech-tag">MySQL</span>
               <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">CSS3</span>
             </div>
+
             <div class="showcase-actions">
               <a class="primary-button showcase-btn" href="https://github.com/zelkam-cmd/coop-survey-management-system.git" target="_blank" rel="noopener noreferrer">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
                 <span>View Code</span>
               </a>
+              <button class="secondary-button showcase-btn btn-inspect" type="button" data-lightbox="campusvoice" aria-label="Inspect CampusVoice screenshots">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>Inspect Screens</span>
+              </button>
             </div>
           </div>
+
           <div class="showcase-visual">
-            <div class="mockup-stage mockup-laptop-stage">
+            <div class="mockup-stage mockup-laptop-stage" data-lightbox="campusvoice" role="button" tabindex="0" aria-label="Click to inspect CampusVoice interface">
               <div class="mockup-ambient-glow glow-blue"></div>
               <div class="device-laptop">
                 <div class="laptop-lid">
@@ -163,6 +196,7 @@
                 </div>
                 <div class="device-shadow laptop-shadow"></div>
               </div>
+              <span class="mockup-hint">Click to enlarge</span>
             </div>
           </div>
         </article>
@@ -170,45 +204,83 @@
         <!-- Project 02: PATAG -->
         <article class="showcase-item showcase-reverse reveal">
           <div class="showcase-visual">
-            <div class="mockup-stage mockup-phone-stage">
+            <div class="mockup-stage mockup-phone-stage" data-lightbox="patag" role="button" tabindex="0" aria-label="Click to inspect PATAG multi-device interfaces">
               <div class="mockup-ambient-glow glow-orange"></div>
-              <div class="device-phone-group">
-                <div class="device-phone phone-secondary">
-                  <div class="phone-frame">
-                    <div class="phone-island"></div>
-                    <div class="phone-screen">
-                      <img src="assets/patag-mobile-inspect.png" alt="PATAG road damage inspection mobile interface" width="390" height="844" loading="lazy">
-                    </div>
+              <div class="multi-device-wrap">
+                <!-- Background Admin Dashboard Preview -->
+                <div class="device-backdrop-admin">
+                  <div class="backdrop-browser-bar">
+                    <span class="dot-sm"></span><span class="dot-sm"></span><span class="dot-sm"></span>
+                    <span class="admin-url">patag.gov.ph/portal/dispatch</span>
                   </div>
-                  <div class="phone-shadow"></div>
+                  <div class="backdrop-screen">
+                    <img src="assets/patag-preview.png" alt="PATAG administrative dispatch portal web preview" width="1440" height="810" loading="lazy">
+                  </div>
                 </div>
-                <div class="device-phone phone-primary">
-                  <div class="phone-frame">
-                    <div class="phone-island"></div>
-                    <div class="phone-screen">
-                      <img src="assets/patag-mobile-locate.png" alt="PATAG interactive GPS road hazard report mobile interface" width="390" height="844" loading="lazy">
+
+                <!-- Foreground Dual Smartphone Composition -->
+                <div class="device-phone-group">
+                  <div class="device-phone phone-secondary">
+                    <div class="phone-frame">
+                      <div class="phone-island"></div>
+                      <div class="phone-screen">
+                        <img src="assets/patag-mobile-inspect.png" alt="PATAG road damage inspection mobile interface" width="390" height="844" loading="lazy">
+                      </div>
                     </div>
+                    <div class="phone-shadow"></div>
                   </div>
-                  <div class="phone-shadow"></div>
+                  <div class="device-phone phone-primary">
+                    <div class="phone-frame">
+                      <div class="phone-island"></div>
+                      <div class="phone-screen">
+                        <img src="assets/patag-mobile-locate.png" alt="PATAG interactive GPS road hazard report mobile interface" width="390" height="844" loading="lazy">
+                      </div>
+                    </div>
+                    <div class="phone-shadow"></div>
+                  </div>
                 </div>
               </div>
+              <span class="mockup-hint">Click to enlarge</span>
             </div>
           </div>
+
           <div class="showcase-content">
             <span class="showcase-eyebrow">02 / CIVIC TECHNOLOGY</span>
             <h3 class="showcase-title">PATAG</h3>
             <p class="showcase-subtitle">Smart Road Reporting &amp; Maintenance Management System</p>
-            <p class="showcase-desc">A civic technology platform that enables citizens to report road damage with photos and location data, while helping local government teams manage, monitor, and track road maintenance requests.</p>
+            <p class="showcase-desc">A civic technology platform that empowers citizens to report potholes and damaged roads using photos and location-based reporting, while enabling local government personnel and maintenance teams to review, assign, and track road repairs.</p>
+            
+            <div class="showcase-details-block">
+              <div class="detail-row">
+                <strong>Problem Solved:</strong>
+                <span>Road hazards frequently go unaddressed due to lost citizen reports, missing GPS coordinates, and lack of tracking transparency in municipal engineering departments.</span>
+              </div>
+              <div class="detail-row">
+                <strong>Key Features:</strong>
+                <span>Location-based photo reporting, hazard severity classification, automated dispatch queues, and citizen repair status updates.</span>
+              </div>
+              <div class="detail-row">
+                <strong>My Contribution:</strong>
+                <span>Designed mobile UI and interactive flows in Figma; engineered citizen reporting screens in Flutter and responsive administrative management views in React.</span>
+              </div>
+            </div>
+
             <div class="showcase-tech">
               <span class="tech-tag">Flutter</span>
               <span class="tech-tag">React</span>
               <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Figma</span>
             </div>
+
             <div class="showcase-actions">
               <a class="primary-button showcase-btn" href="https://github.com/lee-creatives/patag-ui.git" target="_blank" rel="noopener noreferrer">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
                 <span>View Code</span>
               </a>
+              <button class="secondary-button showcase-btn btn-inspect" type="button" data-lightbox="patag" aria-label="Inspect PATAG screenshots">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>Inspect Screens</span>
+              </button>
             </div>
           </div>
         </article>
@@ -218,22 +290,45 @@
           <div class="showcase-content">
             <span class="showcase-eyebrow">03 / AGRICULTURAL TECHNOLOGY</span>
             <h3 class="showcase-title">Pananim</h3>
-            <p class="showcase-subtitle">Agricultural Trading &amp; Supply Chain Management System</p>
-            <p class="showcase-desc">An agricultural platform connecting farmers, buyers, and logistics providers through transparent crop trading, market pricing, and coordinated transportation for a more efficient supply chain.</p>
+            <p class="showcase-subtitle">Agricultural Trading &amp; Logistics Coordination Platform</p>
+            <p class="showcase-desc">A digital agricultural platform designed to connect farmers, buyers, and logistics providers through transparent trading and coordinated supply chains. It improves crop price visibility, streamlines transactions, and coordinates cargo transportation to reduce post-harvest waste.</p>
+            
+            <div class="showcase-details-block">
+              <div class="detail-row">
+                <strong>Problem Solved:</strong>
+                <span>Smallholder agricultural producers face opaque middleman pricing and high transport costs, while buyers struggle to find verified harvest supply and predictable freight dispatch.</span>
+              </div>
+              <div class="detail-row">
+                <strong>Key Features:</strong>
+                <span>Live farm-gate crop pricing, verified multi-role marketplace, cargo pooling for shared freight transport, and order fulfillment tracking.</span>
+              </div>
+              <div class="detail-row">
+                <strong>My Contribution:</strong>
+                <span>Developed the dashboard interface using React and Vite, implemented reusable UI widgets, and organized responsive layouts for multi-device trading.</span>
+              </div>
+            </div>
+
             <div class="showcase-tech">
               <span class="tech-tag">React</span>
               <span class="tech-tag">TypeScript</span>
               <span class="tech-tag">Vite</span>
+              <span class="tech-tag">Tailwind CSS</span>
             </div>
+
             <div class="showcase-actions">
               <a class="primary-button showcase-btn" href="https://github.com/mhaithan-lee/pananim.git" target="_blank" rel="noopener noreferrer">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
                 <span>View Code</span>
               </a>
+              <button class="secondary-button showcase-btn btn-inspect" type="button" data-lightbox="pananim" aria-label="Inspect Pananim screenshots">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                <span>Inspect Screens</span>
+              </button>
             </div>
           </div>
+
           <div class="showcase-visual">
-            <div class="mockup-stage mockup-desktop-stage">
+            <div class="mockup-stage mockup-desktop-stage" data-lightbox="pananim" role="button" tabindex="0" aria-label="Click to inspect Pananim interface">
               <div class="mockup-ambient-glow glow-green"></div>
               <div class="device-desktop">
                 <div class="browser-window">
@@ -257,335 +352,354 @@
                 </div>
                 <div class="device-shadow desktop-shadow"></div>
               </div>
+              <span class="mockup-hint">Click to enlarge</span>
             </div>
           </div>
         </article>
       </div>
 
       <div class="projects-cta-wrap reveal">
-        <a class="view-all-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Code%20Review%20&%20Portfolio%20Inquiry">
-          Request Code Walkthrough &amp; GitHub Access
+        <a class="view-all-button" href="https://github.com/lee-creatives" target="_blank" rel="noopener noreferrer">
+          View Organization Repositories on GitHub
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
         </a>
       </div>
     </section>
 
-    <!-- Bento / About & Why Hire Me (Folioxa Style) -->
-    <section class="capabilities shell section-space" aria-labelledby="capabilities-title">
+    <!-- Section 3: About Me Section -->
+    <section class="about shell section-space" id="about" aria-labelledby="about-title">
       <div class="center-heading reveal">
-        <span class="section-tag">Candidate Profile</span>
-        <h2 id="capabilities-title">Why I’m Ready to Add Immediate Value</h2>
-        <p class="section-subtext">A passionate front-end developer who bridges the gap between design and production code.</p>
+        <span class="section-tag">ABOUT ME</span>
+        <h2 id="about-title">Engineering Interfaces with Purpose</h2>
+        <p class="section-subtext">A BSIT student dedicated to creating intuitive, accessible software for real people.</p>
       </div>
 
-      <div class="folioxa-bento">
-        <!-- Top Left: Hero Orange Card -->
-        <article class="bento-card bento-orange reveal">
-          <div class="bento-orange-content">
-            <span class="bento-name">Mhaithan Caliuag</span>
-            <span class="bento-sub">Front-End Developer &amp; UI/UX Researcher</span>
-            <div class="bento-badge">★ BSIT · BulSU · CLASS OF 2026</div>
-            <p class="bento-desc">“I design what people actually use, then build it.” Combining empathetic user research, clean code, and fast execution.</p>
-            <a class="bento-cta-btn" href="#contact">Contact Candidate <span>→</span></a>
+      <div class="about-grid reveal">
+        <!-- Profile Mini-Card -->
+        <div class="about-profile-card">
+          <div class="about-avatar-wrap">
+            <img src="assets/mhaithan-portrait.png" alt="Mhaithan Lee H. Caliuag portrait" width="400" height="400" loading="lazy">
           </div>
-          <div class="bento-orange-img">
-            <img src="assets/mhaithan-avatar-cutout.png" alt="Mhaithan avatar" width="400" height="400" loading="lazy">
+          <div class="about-profile-info">
+            <h3>Mhaithan Lee H. Caliuag</h3>
+            <span class="about-role">BSIT Student &bull; Front-End Developer</span>
+            <div class="about-quick-facts">
+              <div class="fact-row">
+                <span class="fact-label">University</span>
+                <span class="fact-val">Bulacan State University (BulSU)</span>
+              </div>
+              <div class="fact-row">
+                <span class="fact-label">Academic Level</span>
+                <span class="fact-val">3rd-Year BSIT &bull; Class of 2026</span>
+              </div>
+              <div class="fact-row">
+                <span class="fact-label">Location</span>
+                <span class="fact-val">Baliwag, Bulacan, Philippines</span>
+              </div>
+              <div class="fact-row">
+                <span class="fact-label">Focus Areas</span>
+                <span class="fact-val">Frontend Engineering, UI/UX Design</span>
+              </div>
+            </div>
           </div>
-        </article>
+        </div>
 
-        <!-- Top Center: What I Bring to Your Team -->
-        <article class="bento-card bento-steps reveal">
-          <h3>What I bring to your team</h3>
-          <ul class="step-list">
-            <li><span class="step-num">1</span> Clean, Maintainable Code</li>
-            <li><span class="step-num">2</span> Pixel-Perfect UI Delivery</li>
-            <li><span class="step-num">3</span> Rapid Learning &amp; Execution</li>
-          </ul>
-        </article>
+        <!-- Story & Philosophy -->
+        <div class="about-narrative-card">
+          <p class="narrative-lead">
+            I am a third-year Information Technology student at Bulacan State University specializing in web engineering and human-computer interaction. My journey began with a curiosity about how people perceive and interact with digital interfaces, which quickly turned into a passion for writing clean, accessible code.
+          </p>
+          <p class="narrative-body">
+            Rather than treating design and frontend engineering as separate worlds, I bridge both disciplines. I spend time researching user journeys and prototyping layouts in Figma, then implement them with semantic HTML, modular CSS, modern JavaScript, and React.
+          </p>
+          <p class="narrative-body">
+            Through collaborative academic systems like PATAG, CampusVoice, and Pananim, I focus on software that addresses genuine challenges—whether that means giving students a structured voice on campus or helping local communities report hazardous road conditions with verifiable data.
+          </p>
 
-        <!-- Top Right: Core Competencies -->
-        <article class="bento-card bento-stats reveal">
-          <div class="framer-icon-square">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+          <div class="pillars-row">
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h4>User-Centered Design</h4>
+              <p>Designing user flows and visual hierarchies that feel obvious and effortless to navigate.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h4>Clean Frontend Craft</h4>
+              <p>Writing structured, semantic, responsive code that loads fast and performs reliably.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+              </div>
+              <h4>Real-World Impact</h4>
+              <p>Building functional technology that solves real civic, educational, and logistics problems.</p>
+            </div>
           </div>
-          <div class="stat-big">100%</div>
-          <p class="stat-subtitle">Reliability &amp; Focus</p>
-          <ul class="stat-checks">
-            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ff5e28" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Fast Onboarding &amp; Git Flow</li>
-            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ff5e28" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Component-Driven Development</li>
-            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ff5e28" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Cross-Browser &amp; Accessibility</li>
-          </ul>
-        </article>
-
-        <!-- Bottom Left: Communication & Team Collaboration -->
-        <article class="bento-card bento-support reveal">
-          <div class="keyboard-icon-box">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2.5"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M6 12h.01M10 12h.01M14 12h.01M18 12h.01M8 16h8"/></svg>
-          </div>
-          <h3>Clear &amp; Proactive Communication</h3>
-          <p>Active in code reviews, daily standups, and documentation to keep team workflows completely frictionless.</p>
-        </article>
-
-        <!-- Bottom Center: Work Ethic -->
-        <article class="bento-card bento-happy reveal">
-          <div class="happy-number">Driven</div>
-          <div class="happy-label">Work Ethic &amp; Growth Mindset</div>
-          <div class="stars-row">★★★★★</div>
-        </article>
-
-        <!-- Bottom Right: Production Ready -->
-        <article class="bento-card bento-confidence reveal">
-          <div class="confidence-badge">
-            <span class="publish-pill">Production Ready</span>
-          </div>
-          <h3>Build &amp; ship responsive interfaces with precision</h3>
-          <p>Translating complex Figma designs into responsive, clean code with modular CSS, semantic tags, and performance audits.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Skills & Technical Proficiencies Section -->
-    <section class="services shell section-space" id="skills" aria-labelledby="skills-title">
-      <div class="services-intro reveal">
-        <span class="section-tag">Technical Competencies</span>
-        <h2 id="skills-title">Skills that elevate your software products.</h2>
-        <p>Combining modern frontend development practices with thoughtful UI/UX design to build scalable, user-centric web applications.</p>
-        <a class="primary-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Technical%20Interview%20Invitation">
-          Discuss Technical Fit
-          <span class="btn-icon">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-          </span>
-        </a>
-        <div class="tool-row">
-          <span>HTML5 &amp; CSS3</span>
-          <span>JavaScript (ES6+)</span>
-          <span>React</span>
-          <span>PHP</span>
-          <span>MySQL</span>
-          <span>Figma</span>
-          <span>Selenium Testing</span>
-          <span>Git &amp; GitHub</span>
-          <span>AWS Cloud Basics</span>
         </div>
       </div>
+    </section>
 
-      <div class="service-stack">
-        <!-- Skill 1: Frontend -->
-        <article class="service-card reveal">
-          <div class="service-icon-box">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+    <!-- Section 4: Technical Skills Section -->
+    <section class="skills-section shell section-space" id="skills" aria-labelledby="skills-title">
+      <div class="center-heading reveal">
+        <span class="section-tag">TECHNICAL SKILLS</span>
+        <h2 id="skills-title">Tools &amp; Technologies I Build With</h2>
+        <p class="section-subtext">A practical toolkit developed through academic coursework, collaborative projects, and hands-on implementation.</p>
+      </div>
+
+      <div class="skills-grid reveal">
+        <!-- Category 1: Frontend Development -->
+        <article class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div>
+              <h3>Frontend Development</h3>
+              <span class="category-summary">Responsive web apps &amp; semantic user interfaces</span>
+            </div>
           </div>
-          <div class="service-text">
-            <h3>01 · Frontend Engineering (HTML, CSS, JS, React)</h3>
-            <p>Writing clean, semantic, and modular frontend architectures with modern JavaScript (ES6+), fluid CSS Grid &amp; Flexbox, and responsive React component trees.</p>
+          <p class="category-desc">Crafting responsive, accessible, and standards-compliant user interfaces using modern layouts and component architecture.</p>
+          <div class="skill-badges">
+            <span class="skill-badge">HTML5</span>
+            <span class="skill-badge">CSS3 (Grid &amp; Flexbox)</span>
+            <span class="skill-badge">JavaScript (ES6+)</span>
+            <span class="skill-badge">React</span>
+            <span class="skill-badge">TypeScript Basics</span>
+            <span class="skill-badge">Responsive Design</span>
           </div>
         </article>
 
-        <!-- Skill 2: UI/UX Design & Research -->
-        <article class="service-card reveal">
-          <div class="service-icon-box">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        <!-- Category 2: Mobile Development -->
+        <article class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <div>
+              <h3>Mobile Development</h3>
+              <span class="category-summary">Cross-platform mobile UI &amp; citizen reporting</span>
+            </div>
           </div>
-          <div class="service-text">
-            <h3>02 · UI/UX Research &amp; Usability Prototyping</h3>
-            <p>Conducting user journey research, wireframing in Figma, and running hands-on usability tests to ensure interfaces feel obvious and effortless to navigate.</p>
-          </div>
-        </article>
-
-        <!-- Skill 3: Backend & Database -->
-        <article class="service-card reveal">
-          <div class="service-icon-box">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
-          </div>
-          <div class="service-text">
-            <h3>03 · Backend Logic &amp; Relational Databases (PHP &amp; MySQL)</h3>
-            <p>Building secure server-side scripts, handling form validation, managing relational schema queries, and connecting frontend clients to MySQL datastores.</p>
-          </div>
-        </article>
-
-        <!-- Skill 4: Testing & Automation -->
-        <article class="service-card reveal">
-          <div class="service-icon-box">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          </div>
-          <div class="service-text">
-            <h3>04 · Quality Assurance &amp; Automated Testing (Selenium)</h3>
-            <p>Writing automated end-to-end browser test scripts using Selenium to verify critical registration, booking, and form submission flows across releases.</p>
+          <p class="category-desc">Building intuitive, multi-screen mobile client interfaces for civic reporting systems with geolocation and device camera integration.</p>
+          <div class="skill-badges">
+            <span class="skill-badge">Flutter</span>
+            <span class="skill-badge">Dart</span>
+            <span class="skill-badge">Mobile UI Patterns</span>
+            <span class="skill-badge">Geolocation Integration</span>
+            <span class="skill-badge">Stateful Widgets</span>
           </div>
         </article>
 
-        <!-- Skill 5: Version Control & Tools -->
-        <article class="service-card reveal">
-          <div class="service-icon-box">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1"/><polyline points="12 12 8 8 12 4"/><line x1="8" y1="8" x2="21" y2="8"/></svg>
+        <!-- Category 3: Programming & Backend -->
+        <article class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <div>
+              <h3>Programming &amp; Backend</h3>
+              <span class="category-summary">Server-side logic, forms &amp; relational data</span>
+            </div>
           </div>
-          <div class="service-text">
-            <h3>05 · Modern Tooling (Git, GitHub, AWS Basics, VS Code)</h3>
-            <p>Strict version control discipline with branch isolation, clear commit histories, pull requests, and fundamental AWS cloud hosting deployments.</p>
+          <p class="category-desc">Implementing server-side data handling, form endpoints, database schemas, and relational queries for departmental software.</p>
+          <div class="skill-badges">
+            <span class="skill-badge">PHP</span>
+            <span class="skill-badge">MySQL</span>
+            <span class="skill-badge">REST API Basics</span>
+            <span class="skill-badge">Relational Schema Design</span>
+            <span class="skill-badge">Form Handling &amp; Validation</span>
+          </div>
+        </article>
+
+        <!-- Category 4: Design & Development Tools -->
+        <article class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <div>
+              <h3>Design &amp; Workflow Tools</h3>
+              <span class="category-summary">Wireframing, version control &amp; quality assurance</span>
+            </div>
+          </div>
+          <p class="category-desc">Applying consistent design systems in Figma, managing team collaboration in GitHub, and testing code quality.</p>
+          <div class="skill-badges">
+            <span class="skill-badge">Figma (UI/UX)</span>
+            <span class="skill-badge">Git &amp; GitHub</span>
+            <span class="skill-badge">VS Code</span>
+            <span class="skill-badge">Selenium QA Testing</span>
+            <span class="skill-badge">Chrome DevTools</span>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- Experience & Education Section -->
+    <!-- Section 5: Education & Experience Section -->
     <section class="experience shell section-space" id="experience" aria-labelledby="experience-title">
       <div class="center-heading reveal">
-        <span class="section-tag">Academic Background &amp; Track Record</span>
+        <span class="section-tag">ACADEMIC BACKGROUND</span>
         <h2 id="experience-title">Education &amp; Experience</h2>
-        <p class="section-subtext">Hands-on student engineering, capstone research, and active software development at BulSU.</p>
+        <p class="section-subtext">Formal university coursework paired with student-led software development.</p>
       </div>
 
-      <div class="experience-grid reveal">
+      <div class="experience-timeline reveal">
         <!-- Item 1: BulSU BSIT Degree -->
-        <article class="experience-card">
-          <div class="exp-header">
-            <div class="exp-title-group">
-              <h3>Bachelor of Science in Information Technology (BSIT)</h3>
-              <span class="exp-org">Bulacan State University (BulSU) · Junior Student (Class of 2026)</span>
-            </div>
-            <span class="exp-date">2023 — Present</span>
+        <article class="timeline-card">
+          <div class="timeline-meta">
+            <span class="timeline-badge">Academic Degree</span>
+            <span class="timeline-date">2023 &mdash; Present</span>
           </div>
-          <p class="exp-desc">Third-year BSIT student specializing in web engineering, human-computer interaction, and modern software architectures. Enrolled in IT305 Advanced Web Development (BSIT 3H-G2 / ADET - Application Development and Emerging Technologies) and active capstone research.</p>
-          <ul class="exp-bullets">
-            <li><strong>Core Coursework:</strong> Advanced Web Development (IT305 / ADET), Database Management Systems (MySQL), Software Engineering, Object-Oriented Programming, and Web Systems &amp; Technologies.</li>
-            <li><strong>Academic Standing:</strong> Active student developer leading UI/UX prototyping, frontend architecture, and usability testing across class project groups.</li>
-            <li><strong>Focus:</strong> Bridging empathetic user research and modern responsive web applications that ship reliably.</li>
-          </ul>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Bachelor of Science in Information Technology (BSIT)</h3>
+            <span class="timeline-subtitle">Bulacan State University (BulSU) &bull; Class of 2026 Expected</span>
+            <p class="timeline-text">
+              Third-year student specializing in web engineering and human-computer interaction (Section BSIT 3H-G2). Enrolled in IT305 Advanced Web Development (ADET &mdash; Application Development and Emerging Technologies), database management, and active capstone research.
+            </p>
+            <ul class="timeline-list">
+              <li><strong>Core Coursework:</strong> Advanced Web Development (IT305 / ADET), Database Systems (MySQL), Software Engineering, Object-Oriented Programming, and Web Systems &amp; Technologies.</li>
+              <li><strong>Academic Standing:</strong> Active student developer leading UI/UX prototyping, frontend component architecture, and usability testing across class project groups.</li>
+            </ul>
+          </div>
         </article>
 
         <!-- Item 2: Capstone & Academic Systems -->
-        <article class="experience-card">
-          <div class="exp-header">
-            <div class="exp-title-group">
-              <h3>Frontend Developer &amp; UI/UX Researcher</h3>
-              <span class="exp-org">Academic Capstone &amp; Course Projects · Bulacan State University</span>
-            </div>
-            <span class="exp-date">2024 — Present</span>
+        <article class="timeline-card">
+          <div class="timeline-meta">
+            <span class="timeline-badge">Academic Systems</span>
+            <span class="timeline-date">2024 &mdash; Present</span>
           </div>
-          <p class="exp-desc">Lead UI designer and frontend developer for major departmental systems including PATAG (web &amp; mobile road pothole reporting and monitoring system for LGUs), CampusVoice (centralized student voting &amp; governance portal), and Pananim (wholesale agricultural crop marketplace &amp; logistics platform).</p>
-          <ul class="exp-bullets">
-            <li>Designed interactive wireframes, user journeys, and component systems in Figma; transformed them into responsive HTML/CSS/JavaScript and React interfaces.</li>
-            <li>Executed usability test sessions with student testers, documenting friction points and iterating button hierarchies for higher completion rates.</li>
-            <li>Integrated backend endpoints with PHP, MySQL, and Firebase; implemented automated tests using Selenium for critical user flows.</li>
-          </ul>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Frontend Developer &amp; UI Researcher</h3>
+            <span class="timeline-subtitle">Academic Capstone &amp; Course Projects &bull; Bulacan State University</span>
+            <p class="timeline-text">
+              Lead UI designer and frontend developer for major departmental systems: PATAG (road hazard reporting and maintenance dispatch system), CampusVoice (centralized student feedback and survey platform), and Pananim (agricultural crop trading and logistics dashboard).
+            </p>
+            <ul class="timeline-list">
+              <li>Designed interactive wireframes, user journeys, and component systems in Figma; transformed them into responsive HTML/CSS/JavaScript and React interfaces.</li>
+              <li>Conducted usability walkthroughs with fellow students, identifying navigation friction points and refining button hierarchies.</li>
+              <li>Collaborated via GitHub with feature branch isolation, pull request reviews, and automated testing via Selenium.</li>
+            </ul>
+          </div>
         </article>
 
-        <!-- Item 3: Independent Web Development -->
-        <article class="experience-card">
-          <div class="exp-header">
-            <div class="exp-title-group">
-              <h3>Web Developer &amp; Creative Tech Lead</h3>
-              <span class="exp-org">Freelance, Student Initiatives &amp; Campus Projects · Baliwag, Bulacan</span>
-            </div>
-            <span class="exp-date">2023 — Present</span>
+        <!-- Item 3: Campus Web Initiatives -->
+        <article class="timeline-card">
+          <div class="timeline-meta">
+            <span class="timeline-badge">Student Initiative</span>
+            <span class="timeline-date">2023 &mdash; Present</span>
           </div>
-          <p class="exp-desc">Designed and deployed high-performance responsive web pages and digital assets for campus campaigns, student clubs, and local client initiatives. Emphasizes clean code, accessible semantic HTML, and fast loading performance.</p>
-          <ul class="exp-bullets">
-            <li>Built modular CSS component architectures and interactive JS micro-interactions with 95+ Lighthouse performance scores.</li>
-            <li>Mentored classmates on Git version control (branches, pull requests), responsive viewport units, and modern layout algorithms (CSS Grid &amp; Flexbox).</li>
-          </ul>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Campus Web &amp; Student Project Collaborator</h3>
+            <span class="timeline-subtitle">Student Collaborations &bull; Baliwag, Bulacan</span>
+            <p class="timeline-text">
+              Assisted student initiatives and project groups in building clean, accessible web pages and organizing design assets. Focused on semantic HTML, mobile responsiveness, and collaborative Git practices.
+            </p>
+            <ul class="timeline-list">
+              <li>Mentored classmates on Git version control (branching, resolving merge conflicts, clear commit conventions).</li>
+              <li>Advocated for accessibility standards (semantic landmark tags, sufficient contrast, responsive viewport units).</li>
+            </ul>
+          </div>
         </article>
       </div>
     </section>
 
-    <!-- Work Process Section (Side Quests / How I Build) -->
-    <section class="process shell section-space" aria-labelledby="process-title">
+    <!-- Section 6: Development Process Section -->
+    <section class="process shell section-space" id="process" aria-labelledby="process-title">
       <div class="center-heading reveal">
-        <span class="section-tag">Engineering Workflow</span>
-        <h2 id="process-title">How I Turn Ideas into Shipped Products</h2>
-        <p class="section-subtext">Researching user needs, writing clean code, and testing until it stops breaking.</p>
+        <span class="section-tag">DEVELOPMENT PROCESS</span>
+        <h2 id="process-title">How I Build Digital Experiences</h2>
+        <p class="section-subtext">A disciplined four-stage workflow that turns user needs into reliable, tested digital products.</p>
       </div>
-      <div class="process-cards">
-        <article class="process-card reveal">
-          <div class="process-step-num">01</div>
-          <h3>Research &amp; Wireframe</h3>
-          <p>Understand user needs before writing a single line of code. Map user journeys, conduct usability research, and build interactive prototypes in Figma that feel obvious to navigate.</p>
-          <div class="process-blueprint-icon">
-            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="#d5d5df" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+
+      <div class="process-grid">
+        <!-- Stage 1: Discover -->
+        <article class="process-step-card reveal">
+          <div class="process-step-header">
+            <span class="step-num">01</span>
+            <div class="step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
           </div>
+          <h3>Discover</h3>
+          <p class="step-tagline">Understand the problem, users, and requirements.</p>
+          <p class="step-body">Identify core user pain points, analyze requirements, and define clear functional goals before writing any code.</p>
         </article>
 
-        <article class="process-card reveal">
-          <div class="process-step-num">02</div>
-          <h3>Build &amp; Refactor</h3>
-          <p>Develop modular, accessible code using semantic HTML5, modern CSS3, and JavaScript/React. Connect backend APIs (PHP/Node.js) and relational data (MySQL) cleanly.</p>
-          <div class="process-blueprint-icon">
-            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="#d5d5df" stroke-width="1.2"><circle cx="12" cy="12" r="10"/><polygon points="12 8 8 12 12 16 16 12 12 8"/></svg>
+        <!-- Stage 2: Design -->
+        <article class="process-step-card reveal">
+          <div class="process-step-header">
+            <span class="step-num">02</span>
+            <div class="step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
           </div>
+          <h3>Design</h3>
+          <p class="step-tagline">Plan user flows, interfaces, and system structure.</p>
+          <p class="step-body">Map out user journeys, establish component hierarchies, and create interactive Figma prototypes to validate usability.</p>
         </article>
 
-        <article class="process-card reveal">
-          <div class="process-step-num">03</div>
-          <h3>Test, Automate &amp; Deploy</h3>
-          <p>Run automated Selenium tests, conduct hands-on usability testing with real users, check cross-device responsiveness, and deploy to modern cloud platforms with Git version control.</p>
-          <div class="process-blueprint-icon">
-            <svg width="70" height="70" viewBox="0 0 24 24" fill="none" stroke="#d5d5df" stroke-width="1.2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+        <!-- Stage 3: Develop -->
+        <article class="process-step-card reveal">
+          <div class="process-step-header">
+            <span class="step-num">03</span>
+            <div class="step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
           </div>
+          <h3>Develop</h3>
+          <p class="step-tagline">Build the interface and implement functionality.</p>
+          <p class="step-body">Write clean, modular, and accessible frontend code using semantic HTML5, modern CSS Grid/Flexbox, and JavaScript/React.</p>
+        </article>
+
+        <!-- Stage 4: Refine -->
+        <article class="process-step-card reveal">
+          <div class="process-step-header">
+            <span class="step-num">04</span>
+            <div class="step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+          </div>
+          <h3>Refine</h3>
+          <p class="step-tagline">Test, evaluate, and improve the experience.</p>
+          <p class="step-body">Verify responsiveness across mobile, tablet, and desktop viewports; conduct usability checks; and polish visual interactions.</p>
         </article>
       </div>
     </section>
 
-
-
-    <!-- FAQ for Recruiters & Hiring Managers -->
-    <section class="faq shell section-space" aria-labelledby="faq-title">
-      <div class="center-heading reveal">
-        <span class="section-tag">Hiring FAQs</span>
-        <h2 id="faq-title">Questions Recruiters &amp; Hiring Managers Ask</h2>
-      </div>
-
-      <div class="faq-list">
-        <details class="reveal">
-          <summary>What is your current academic status and background? <span class="faq-toggle">+</span></summary>
-          <p>I am a 3rd-year <strong>Bachelor of Science in Information Technology (BSIT)</strong> student at <strong>Bulacan State University (BulSU)</strong> (Section BSIT 3H-G2 / Class of 2026). My coursework focuses on Advanced Web Development (IT305 / ADET), database systems, and human-computer interaction.</p>
-        </details>
-        <details class="reveal">
-          <summary>What types of roles are you currently looking for? <span class="faq-toggle">+</span></summary>
-          <p>I am seeking <strong>Internship, Associate, or Junior Front-End Developer &amp; UI/UX Designer</strong> positions, as well as full-time software engineering opportunities. Open to remote, hybrid, or onsite roles in Bulacan and Metro Manila.</p>
-        </details>
-        <details class="reveal">
-          <summary>What is your current availability and timeline to start? <span class="faq-toggle">+</span></summary>
-          <p>I am available to start immediately or within 1 to 2 weeks upon receiving an offer. I am prepared for technical assessments, take-home challenges, and live interviews.</p>
-        </details>
-        <details class="reveal">
-          <summary>What sets you apart from other junior candidates? <span class="faq-toggle">+</span></summary>
-          <p>I combine real technical development skills with strong UI/UX design sensibility. I do not just write code; I understand design systems, visual hierarchy, mobile usability, and business objectives. I am also exceptionally self-driven, receptive to feedback, and eager to learn.</p>
-        </details>
-        <details class="reveal">
-          <summary>How do you collaborate within an engineering team? <span class="faq-toggle">+</span></summary>
-          <p>I follow established Git workflows (feature branching, clear commit messages, pull requests), write readable code, participate actively in standups, and communicate roadblocks early to ensure project velocity.</p>
-        </details>
-        <details class="reveal">
-          <summary>Are you open to learning new frameworks or backend technologies? <span class="faq-toggle">+</span></summary>
-          <p>Yes, absolutely. I have strong fundamentals in vanilla JavaScript, DOM, CSS, and modern web standards, making it easy to adapt to React, Vue, Next.js, Node.js, TypeScript, or company-specific proprietary stacks rapidly.</p>
-        </details>
-        <details class="reveal">
-          <summary>How can we schedule an interview with you? <span class="faq-toggle">+</span></summary>
-          <p>You can reach me directly via email at <a href="mailto:mhaithan.lee.c@gmail.com"><strong>mhaithan.lee.c@gmail.com</strong></a> or by phone at <a href="tel:+639761348316"><strong>0976 134 8316</strong></a>. I reply within 24 hours.</p>
-        </details>
-      </div>
-    </section>
-
-    <!-- Bottom CTA Banner Card -->
+    <!-- Section 7: Contact & Footer Section -->
     <section class="contact shell section-space" id="contact" aria-labelledby="contact-title">
       <div class="contact-card reveal">
-        <h2 id="contact-title">Ready to Add a Dedicated Developer<br>to Your Team? Let’s Talk.</h2>
-        <p>Currently reviewing opportunities for full-time frontend and UI design positions.</p>
+        <h2 id="contact-title">Let's Build Something Meaningful.</h2>
+        <p class="contact-subtext">I'm always interested in learning, collaborating, and exploring opportunities to create useful digital experiences.</p>
+        
         <div class="contact-buttons-group">
-          <a class="primary-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Job%20Opportunity%20-%20Interview%20Invitation">
-            Send an Email / Interview Invitation
+          <a class="primary-button" href="mailto:mhaithan.lee.c@gmail.com?subject=Collaboration%20Inquiry%20-%20Mhaithan%20Caliuag">
+            Send an Email
             <span class="btn-icon">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </span>
+          </a>
+          <a class="secondary-button" href="https://github.com/lee-creatives" target="_blank" rel="noopener noreferrer">
+            View GitHub Profile
+            <span class="btn-icon">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
             </span>
           </a>
         </div>
-        <div class="cta-spots">
-          <span class="status-dot"></span> Available for immediate hiring &amp; onboarding
-        </div>
+
         <div class="contact-methods">
           <div class="method-item">
             <span class="method-label">Direct Email</span>
             <a href="mailto:mhaithan.lee.c@gmail.com">mhaithan.lee.c@gmail.com</a>
+          </div>
+          <div class="method-item">
+            <span class="method-label">GitHub</span>
+            <a href="https://github.com/mhaithan-lee" target="_blank" rel="noopener noreferrer">github.com/mhaithan-lee</a>
           </div>
           <div class="method-item">
             <span class="method-label">Phone</span>
@@ -593,18 +707,59 @@
           </div>
           <div class="method-item">
             <span class="method-label">Location</span>
-            <span>Baliwag, Bulacan, Philippines (Open to Remote &amp; Onsite)</span>
+            <span>Baliwag, Bulacan, Philippines</span>
           </div>
         </div>
       </div>
 
       <footer class="site-footer">
         <span>Portfolio of Mhaithan Lee H. Caliuag</span>
-        <address>Baliwag, Bulacan, Philippines · Available Globally</address>
-        <span>© 2026 Mhaithan. All rights reserved.</span>
+        <address>Baliwag, Bulacan, Philippines &bull; Available for Inquiries</address>
+        <div class="footer-right">
+          <span>&copy; 2026 Mhaithan. All rights reserved.</span>
+          <a class="back-to-top" href="#top" aria-label="Back to top">
+            <span>Back to top</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+          </a>
+        </div>
       </footer>
     </section>
   </main>
+
+  <!-- Interactive Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lightbox-title">
+    <div class="lightbox-overlay" data-close-lightbox></div>
+    <div class="lightbox-container">
+      <div class="lightbox-header">
+        <div>
+          <span id="lightbox-category" class="lightbox-category">Project Category</span>
+          <h3 id="lightbox-title" class="lightbox-title">Project Screenshot Title</h3>
+        </div>
+        <button type="button" class="lightbox-close-btn" data-close-lightbox aria-label="Close screenshot preview">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <div class="lightbox-viewport">
+        <img id="lightbox-img" src="" alt="Enlarged project screenshot" class="lightbox-image">
+      </div>
+
+      <div class="lightbox-footer">
+        <p id="lightbox-desc" class="lightbox-desc">Screenshot description and implementation details.</p>
+        <div id="lightbox-nav" class="lightbox-nav-buttons">
+          <button type="button" id="lightbox-prev" class="lightbox-btn" aria-label="Previous screen">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            <span>Prev</span>
+          </button>
+          <span id="lightbox-counter" class="lightbox-counter">1 / 1</span>
+          <button type="button" id="lightbox-next" class="lightbox-btn" aria-label="Next screen">
+            <span>Next</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
